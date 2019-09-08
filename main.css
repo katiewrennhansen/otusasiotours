@@ -35,6 +35,7 @@ a {
 
 a:hover {
     text-decoration: underline;
+    color: #AC581C;
 }
 
 #brand,
@@ -93,7 +94,11 @@ nav {
 }
 
 .navbar-collapse{
-    transform: translateX(9999px);
+    transform: translateX(150vw);
+}
+
+.show-nav {
+    transform: translateX(50vw);
 
 }
 
@@ -181,14 +186,14 @@ hr {
     padding-bottom: 20px;
 }
 
-
 .thumbnail img {
     width: 100%;    
 }
 
 .thumbnail-content {
     padding: 10px 20px;
-
+    display: flex;
+    flex-direction: column;
 }
 
 .thumbnail h3 {
@@ -209,6 +214,9 @@ hr {
     background-color: #0D1206;
     padding: 8px 15px;
     border-radius: 2px;
+    width: 50%;
+    display: flex;
+    align-items: baseline;
     
 }
 
@@ -277,11 +285,6 @@ input[type="submit"]{
     margin: 15px 0;
 }
 
-.col2 a:hover {
-    color: #C6E2A5;
-    cursor: pointer
-}
-
 .col3 {
     margin: 50px 0;
     display: flex;
@@ -314,7 +317,7 @@ i {
     }
     .learn {
         font-size: 25px;
-        padding: 10px 20px;
+        padding: 10px 30px;
     }
     h2 {
         font-size: 82px;
@@ -365,12 +368,150 @@ i {
     input[type="text"],
     input[type="submit"] {
         font-size: 25px;
+        margin: 0 5px;
     }
-
-
-
-
-
+    .footer {
+        padding: 60px;
+    }
+    .footer h3 {
+        font-size: 50px;
+    }
+    .med-display {
+        display: flex;
+        justify-content: space-around;
+    }
+    .col {
+        margin: 20px 0;
+    }
+    .col p {
+        margin: 15px;
+    }
+    
+    .col2 li {
+        margin: 20px 0;
+        text-align: left;
+    }
+    .col3 {
+        display: flex;
+        flex-direction: column;
+    }
+    i {
+        font-size: 35px;
+    }
+}
+@media (min-width: 1200px) {
+    .nav-button {
+        display: none;
+    }
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center; 
+    }
+ 
+    #logo {
+        position: absolute;
+        top: 5px;
+        left: 30px;
+    }
+    #brand {
+        opacity: 1;
+        position: absolute;
+        top: 16px;
+        left: 150px;
+        font-size: 30px;
+    }
+    .navbar-collapse{
+        transform: translateX(0px);
+        margin-right: 30px
+    }
+    .navbar-nav {
+        display: flex;
+    }
+    .navbar-nav li {
+        margin-left: 50px;
+    }
+    .contact-button a {
+        background: #C6E2A5;
+        color: black;
+        padding: 10px 18px;
+        border-radius: 2px;
+    }
+    h1 {
+        font-size: 120px;
+    }
+    .learn {
+        padding: 10px 40px;
+    }
+    h2 {
+        font-size: 60px;
+    }
+    .welcome h2 {
+        text-align: right;
+    }
+    .welcome {
+        width: 100%;
+    }
+    .welcome img{
+        float: left;
+        width: 50%;
+        margin-right: 50px;
+    }
+    .itineraries {
+        padding-bottom: 150px;
+    }
+    .itineraries h2 {
+        padding-top: 200px;
+        clear: left;
+    }
+    #current {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .thumbnail {
+        width: 30%;
+        max-width: 350px;
+    }
+    .thumbnail h3 {
+        font-size: 38px;
+    }
+    .thumbnail p {
+        font-size: 25px;
+    }
+    .thumbnail a {
+        padding: 8px 20px;
+        font-size: 18px;
+    }
+    input[type="text"],
+    input[type="submit"] {
+        font-size: 20px;
+        padding: 8px 20px;
+        font-weight: 300;
+    }
+    .footer {
+        padding: 60px 100px;
+    }
+    .flex-container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .col1 {
+        flex: 1;
+        text-align: left;
+    }
+    .col1 h3 {
+        font-size: 45px;
+    }
+    .col1 p {
+        margin-left: 0
+    }
+    .med-display {
+        flex: 2;
+    }
+    .copyright {
+        margin-top: 50px;
+    }
 }
 
 

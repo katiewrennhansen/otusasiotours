@@ -23,147 +23,151 @@
             <div class="burger-bar"></div>
             <div class="burger-bar"></div>
         </button>
-        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button> -->
 
-        <div class="navbar-collapse">
+        <div class="navbar-collapse" id="navbar-collapse">
           <ul class="navbar-nav">
             <li class="nav-item active">
               <a class="nav-link" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="current.html">Upcoming Trips</a>
+              <a class="nav-link" href="pages/itineraries.html">Upcoming Trips</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="tourinfo.html">Tour Info</a>
+              <a class="nav-link" href="pages/info.html">Tour Info</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="registration.html">Past Trips</a>
+              <a class="nav-link" href="pages/pastTrips.html">Past Trips</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="pages/about.html">About</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Us</a>
+            <li class="nav-item contact-button">
+              <a class="nav-link" href="pages/contact.html">Contact Us</a>
             </li>
           </ul>
         </div>
       </nav>
     </header>
 
-    <section class="landing" id="landing">
-        <div class="homepage-content">
-            <h1 class="landing-container">Otus asio Tours</h1>
-            <p class="landing-text">Quality birdwatching tours around the world.</p>
-            <a class="learn" href="#featured-trips">Learn More</a>
-        </div>        
-    </section>
+    <main>
+        <section class="landing" id="landing">
+            <div class="homepage-content">
+                <h1 class="landing-container">Otus asio Tours</h1>
+                <p class="landing-text">Quality birdwatching tours around the world.</p>
+                <a class="learn" href="#upcoming-trips">Learn More</a>
+            </div>        
+        </section>
+        
+        <section class="welcome">   
+            <h2>Welcome to Otus&nbsp;asio&nbsp;Tours</h2>
+            <img class="welcome-image" src="images/indexImages/homepage_birders.jpeg" alt="group birding in San Blas Mexico">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+        </section>
+
+
+        <section class="itineraries" id="upcoming-trips">
+        <h2 class="title">Upcoming Trips</h2>
+        <hr>
+        <div class="upcoming" id="current">
+            <div class="thumbnail">
+                <div class="image-container">
+                    <img class="thumbnailImg" src="images/indexImages/tour1.jpeg">
+                </div>
+                <div class="thumbnail-content">
+                    <h3>Cuban Endemics</h3>
+                    <p>November 7-17, 2019</p>
+                    <p>$4100 from Havana</p>
+                    <a class="tour-button" href="#" target="_blank" title="Cuban Endemics Itinerary">Learn More</a>
+                </div>
+            </div>
+
+            <div class="thumbnail">
+                <div class="image-container">
+                    <img class="thumbnailImg"src="images/indexImages/tour2.jpeg">
+                </div>
+                <div class="thumbnail-content">
+                    <h3>Cambodia: Ancient Temples and Endangered Birds</h3>
+                    <p>Jan. 22-Feb. 6, 2020</p> 
+                    <p>$4995 from Siem Reap</p>
+                    <a class="tour-button" href="#" target="_blank" title="Cambodia Itinerary">Learn More</a>
+                </div>
+            </div>
+
+            <div class="thumbnail">
+                <div class="image-container">
+                <img class="thumbnailImg"src="images/indexImages/tour3.jpeg">
+                </div>
+                <div class="thumbnail-content">
+                    <h3>Texas: Rio Grande Valley</h3>
+                    <p>March 7-15, 2020</p> 
+                    <p>$2495 from Harlingen</p>
+                    <a class="tour-button" href="#" target="_blank" title="Texas Itinerary">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter">
+                <form class="signup">
+                    <p>Sign up for our Newsletter!</p>
+                    <input class="box" type="text" placeholder="Email" name="Email">
+                    <input class="submit" type="submit" value="Sign Up">
+                </form>
+        </section>
+
+        <section class="group-image"></section>
+    </main>
     
-    <section class="welcome">   
-        <h2>Welcome to Otus&nbsp;asio&nbsp;Tours</h2>
-        <img src="images/indexImages/homepage_birders.jpeg" alt="group birding in San Blas Mexico">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-    </section>
-
-
-    <section class="itineraries" id="upcoming-trips">
-      <h2 class="title">Upcoming Trips</h2>
-      <hr>
-      <div class="upcoming" id="current">
-          <div class="thumbnail">
-            <div class="image-container">
-                <img class3"thumbnailImg" src="images/indexImages/tour1.jpeg">
-            </div>
-            <div class="thumbnail-content">
-                <h3>Cuban Endemics</h3>
-                <p>November 7-17, 2019</p>
-                <p>$4100 from Havana</p>
-                <a class="tour-button" href="#" target="_blank" title="Cuban Endemics Itinerary">Learn More</a>
-            </div>
-        </div>
-
-        <div class="thumbnail">
-            <div class="image-container">
-                <img class="thumbnailImg"src="images/indexImages/tour2.jpeg">
-            </div>
-            <div class="thumbnail-content">
-                <h3>Cambodia: Ancient Temples and Endangered Birds</h3>
-                <p>Jan. 22-Feb. 6, 2020</p> 
-                <p>$4995 from Siem Reap</p>
-                <a class="tour-button" href="#" target="_blank" title="Cambodia Itinerary">Learn More</a>
-            </div>
-        </div>
-
-          <div class="thumbnail">
-            <div class="image-container">
-              <img class="thumbnailImg"src="images/indexImages/tour3.jpeg">
-            </div>
-            <div class="thumbnail-content">
-                <h3>Texas: Rio Grande Valley</h3>
-                <p>March 7-15, 2020</p> 
-                <p>$2495 from Harlingen</p>
-                <a class="tour-button" href="#" target="_blank" title="Texas Itinerary">Learn More</a>
-            </div>
-        </div>
-    </section>
-
-    <section class="newsletter">
-            <form class="signup">
-                <p>Sign up for our Newsletter!</p>
-                <input class="box" type="text" placeholder="Email" name="Email">
-                <input class="submit" type="submit" value="Sign Up">
-            </form>
-    </section>
-
-    <section class="group-image"></section>
-
     <footer class="footer">
         <div class="flex-container">
             <div class="col col1">
                 <img src="images/logo.png" id="otus">
-                <h3 class="name">Otus asio Tours LLC</h3>
-                <p>otusasiotours@gmail.com</p>
+                <h3 class="name">Otus asio Tours</h3>
+                <p><a href="mailto:otusasiotours@gmail.com">otusasiotours@gmail.com</a></p>
                 <p>(919) 259-9423</p>
             </div>
-            <div class="col col2">
-                <ul class="footer-nav">
-                    <li>
-                        <a href="#home">Home</a>
-                    </li>
-                    <li>
-                        <a href="current.html">Upcoming Trips</a>
-                    </li>
-                    <li>
-                        <a href="tourinfo.html">Tour Info</a>
-                    </li>
-                    <li>
-                        <a href="registration.html">Past Trips</a>
-                    </li>
-                    <li>
-                        <a href="about.html">About</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col col3">
-                <div class="facebook">
-                    <i class="fab fa-facebook-f"></i>
+            <div class="med-display">
+                <div class="col col2">
+                    <ul class="footer-nav">
+                        <li>
+                            <a href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a href="pages/itineraries.html">Upcoming Trips</a>
+                        </li>
+                        <li>
+                            <a href="pages/info.html">Tour Info</a>
+                        </li>
+                        <li>
+                            <a href="pages/pastTrips.html">Past Trips</a>
+                        </li>
+                        <li>
+                            <a href="pages/about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="pages/contact.html">Contact Us</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="instagram">
-                    <i class="fab fa-instagram"></i>
-                </div>
-                <div class="linkedin">
-                    <i class="fab fa-linkedin-in"></i>
+                <div class="col col3">
+                    <div class="facebook">
+                        <a href="https://www.facebook.com/otusasiotours/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    <div class="instagram">
+                        <a href="https://www.instagram.com/otus.asio.tours/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="linkedin">
+                        <a href="https://www.linkedin.com/in/jan-hansen-b2587a78/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
         <p class="copyright">Copyright Otus asio Tours LLC 2019 | <a href="http://www.otusasiotours.com" target="_blank">otusasiotours.com</a></p>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  </body>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>    
+    <script type="text/javascript" src="index.js"></script>
+</body>
 </html>
