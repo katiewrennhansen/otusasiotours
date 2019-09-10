@@ -1,22 +1,23 @@
 
 
 //DOM VARIABLES
-const nav = document.querySelector('nav');
-const button = document.querySelector('button');
+const toggleBtn = document.querySelector('button');
 const main = document.querySelector('main');
-const navbar = document.getElementById("navbar-collapse");
+const collapse = document.getElementById('navbar-collapse');
+const navLinks = document.querySelectorAll('.nav-link');
 
 
 
-function navToggle(){
-    button.addEventListener('click', function(){
-        navbar.classList.toggle('show-nav');
-      });
-    main.addEventListener('click', function(){
-        navbar.classList.remove('show-nav');
+
+
+toggleBtn.addEventListener('click', function(){
+    toggleBtn.classList.toggle('cross');
+    collapse.classList.toggle('toggle');
+});
+
+navLinks.forEach(link => {
+    link.addEventListener('click', function(){
+        collapse.classList.remove('toggle');
+        toggleBtn.classList.remove('cross');
     });
-}
-
-
-
-navToggle();
+});
