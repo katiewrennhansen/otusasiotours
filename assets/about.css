@@ -1,0 +1,91 @@
+@import "general_nav.css";
+
+/*==============*/
+/*ABOUT */
+/*==============*/
+.about-landing {
+    background: url('../images/aboutImages/groupCover.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    height: 40vh;
+}
+
+.about {
+    border-top: 20px solid #E6E6E6;
+}
+
+.about-content {
+    margin: 50px auto;
+}
+
+.mobile-show {
+    width: 90%;
+}
+
+.about-content h1 {
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.about-otus {
+    width: 85%;
+    margin: 20px auto;
+}
+
+.about-content p {
+    padding-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (min-width:768px){
+    .hidden {
+        display: block;
+        width: 33.334%;
+    }
+    .mobile-show {
+        display: block;
+        width: 33.334%;
+    }
+    .images-column {
+        display: flex;
+        width: 100%;
+    }
+    .about-content {
+        margin-bottom: 0;
+    }
+    .about-content h1 {
+        font-size: 50px;
+    }
+    .about-otus p {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+}
+@media (min-width:1200px){
+    .hidden, 
+    .mobile-show {
+        width: 300px;
+        margin-top: 20px;
+    }
+    .about-content {
+        display:flex;
+        margin-bottom: 50px;
+    }
+    .images-column {
+        display: block;
+        width: 100%;
+        flex: 2;
+    }
+    .about-otus {
+        flex: 5;
+        margin: 0 10% 0 5%;
+    }
+    .about-content h1 {
+        font-size: 50px;
+    }
+
+}
