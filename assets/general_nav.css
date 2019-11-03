@@ -55,6 +55,7 @@ ul {
     padding: 0;
 }
 
+
 /*==============*/
 /*NAVIGATION */
 /*==============*/
@@ -159,7 +160,11 @@ nav li {
 
 
 
-/* footer */
+/*=============
+FOOTER
+==============*/
+
+
 .footer {
     background:#0D1206;
     color: #F0EDED;
@@ -206,9 +211,6 @@ i {
 
 
 @media (min-width: 768px) {
-    nav {
-        /* height: 70px; */
-    }
     #logo {
         margin: 8px 0 0 20px;
     }

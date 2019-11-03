@@ -1,0 +1,122 @@
+@import "general_nav.css";
+
+
+/*==============*/
+
+.itineraties-landing {
+    background: url('../images/itineraries/DSCN4989.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: none;
+    height: 50vh;
+}
+
+.itineraries,
+.trip {
+    border-top: 20px solid #E6E6E6;
+}
+
+
+
+
+
+
+
+
+
+
+
+/**** card styles */
+.thumbnail {
+    border: 1px solid #BCBCBC;
+    width: 85%;
+    margin: 40px auto;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+    padding-bottom: 20px;
+}
+
+.thumbnail img {
+    width: 100%;    
+}
+
+.thumbnail-content {
+    padding: 10px 20px;
+    flex-direction: column;
+}
+
+.thumbnail h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.thumbnail p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.thumbnail p:nth-child(3) {
+    margin-bottom: 30px;
+}
+
+.thumbnail a {
+    background-color: #0D1206;
+    padding: 8px 15px;
+    border-radius: 2px;  
+}
+
+
+
+@media (min-width: 768px){
+    .thumbnail {
+        width: 70%;
+        margin: 60px auto;
+    }
+    .thumbnail-content {
+        padding: 15px 25px;
+    }
+    .thumbnail h3 {
+        font-size: 45px;
+    }
+    .thumbnail p {
+        font-size: 30px;
+    }
+    .thumbnail a {
+        padding: 12px 18px;
+        font-size: 25px;
+    }
+}
+@media (min-width: 1200px){
+    .itineraries {
+        padding-bottom: 150px;
+    }
+    .itineraries h2 {
+        padding-top: 200px;
+        clear: left;
+    }
+    #current {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .thumbnail:hover .thumbnailImg {
+        transform: scale(1.1);
+        transition: transform 400ms ease-in-out;
+    }
+    .image-container {
+        overflow: hidden;
+    }
+    .thumbnail {
+        width: 30%;
+        max-width: 350px;
+    }
+    .thumbnail h3 {
+        font-size: 38px;
+    }
+    .thumbnail p {
+        font-size: 25px;
+    }
+    .thumbnail a {
+        padding: 8px 20px;
+        font-size: 18px;
+    }
+}
