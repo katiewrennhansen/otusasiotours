@@ -81,12 +81,38 @@ hr {
 }
 
 /**** card styles */
+
+.upcoming {
+    margin: 30px;
+    display: grid;
+    grid-gap: 30px;
+    justify-content: center;
+}
+
 .thumbnail {
     border: 1px solid #BCBCBC;
-    width: 85%;
-    margin: 40px auto;
     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
     padding-bottom: 20px;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-container p {
+    font-size: 14px;
+}
+
+.bird-name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: right;
+    z-index: 1000;
+    color: white;
+    padding: 40px 30px 20px;
+    width: 100%;
+    background-image: linear-gradient(rgba(13, 18, 6, 0),rgba(13, 18, 6, 0.7), rgba(13, 18, 6, 1));
 }
 
 .thumbnail img {
@@ -99,12 +125,12 @@ hr {
 }
 
 .thumbnail h3 {
-    font-size: 30px;
+    font-size: 26px;
     margin-bottom: 15px;
 }
 
-.thumbnail p {
-    font-size: 20px;
+.thumbnail-content p {
+    font-size: 16px;
     margin-bottom: 10px;
 }
 
@@ -155,18 +181,15 @@ input[type="submit"]{
 
 
 
-
 @media (min-width: 768px) {
     h1 {
         font-size: 90px;
         margin-bottom: 18px;
-
     }
     .landing-text {
         font-size: 35px;
         max-width: 450px;
         margin: 0 auto 50px;
-
     }
     .learn {
         font-size: 20px;
@@ -174,7 +197,7 @@ input[type="submit"]{
         font-weight: 300;
     }
     h2 {
-        font-size: 82px;
+        font-size: 55px;
     }
     .welcome img {
         width: 85%;
@@ -183,7 +206,7 @@ input[type="submit"]{
         width: 75%;
         margin: 30px auto;
         line-height: 1.5;
-        font-size: 25px;
+        font-size: 18px;
     }
     .itineraries {
         padding-bottom: 60px;
@@ -196,21 +219,23 @@ input[type="submit"]{
         margin: 0 auto 60px;
     }
     .thumbnail {
-        width: 70%;
-        margin: 60px auto;
+        max-width: 500px;
+    }
+    .image-container p {
+        font-size: 16px;
     }
     .thumbnail-content {
         padding: 15px 25px;
     }
     .thumbnail h3 {
-        font-size: 45px;
-    }
-    .thumbnail p {
         font-size: 30px;
+    }
+    .thumbnail-content p {
+        font-size: 18px;
     }
     .thumbnail a {
         padding: 12px 18px;
-        font-size: 25px;
+        font-size: 18px;
     }
     .newsletter {
         padding: 50px;
@@ -247,7 +272,6 @@ input[type="submit"]{
         float: left;
         width: 50%;
         margin-right: 50px;
-        /* grid-row: 1; */
     }
     .itineraries {
         padding-bottom: 150px;
@@ -256,27 +280,27 @@ input[type="submit"]{
         padding-top: 200px;
         clear: left;
     }
-    #current {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
+    .upcoming {
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-around;
+        margin: 100px;
+    }
+    .thumbnail .thumbnailImg {
+        transform: scale(1.0);
+        transition: 300ms ease-in-out;
     }
     .thumbnail:hover .thumbnailImg {
         transform: scale(1.1);
-        transition: transform 400ms ease-in-out;
+        transition: 300ms ease-in-out;
     }
     .image-container {
         overflow: hidden;
     }
-    .thumbnail {
-        width: 30%;
-        max-width: 350px;
-    }
     .thumbnail h3 {
-        font-size: 38px;
-    }
-    .thumbnail p {
         font-size: 25px;
+    }
+    .thumbnail-content p {
+        font-size: 20px;
     }
     .thumbnail a {
         padding: 8px 20px;

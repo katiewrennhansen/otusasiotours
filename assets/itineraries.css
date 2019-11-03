@@ -4,7 +4,7 @@
 /*==============*/
 
 .itineraties-landing {
-    background: url('../images/itineraries/DSCN4989.jpg');
+    background: url('../images/itineraries/cover.jpg');
     background-position: top;
     background-size: cover;
     background-repeat: none;
@@ -63,6 +63,16 @@
     padding: 8px 15px;
     border-radius: 2px;  
 }
+
+
+.group-image {
+    background: url('../images/itineraries/group.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    height: 60vh;
+}
+
 
 
 
