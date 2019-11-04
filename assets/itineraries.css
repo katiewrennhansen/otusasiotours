@@ -8,12 +8,9 @@
     background-position: top;
     background-size: cover;
     background-repeat: none;
-    height: 50vh;
-}
+    height: 40vh;
+    border-bottom: 20px solid #E6E6E6;
 
-.itineraries,
-.trip {
-    border-top: 20px solid #E6E6E6;
 }
 
 .itineraries h2 {
@@ -26,12 +23,6 @@ hr {
     margin: 0 auto 30px;
 }
 
-
-
-
-
-
-/**** card styles */
 .image-container {
     position: relative;
 }
@@ -97,10 +88,63 @@ hr {
     height: 60vh;
 }
 
+/* indevidual trip styles  */
+.trip {
+    width: 80%;
+    margin: 0 auto 100px;
+}
 
+.trip img {
+    width: 100%;
+}
+
+.trip-image {
+    position: relative;
+}
+
+.trip-image .bird-name {
+    bottom: 0;
+}
+
+.trip div {
+    margin-bottom: 30px;
+}
+
+.trip h1 {
+    margin: 80px 0 30px;
+    font-size: 35px;
+}
+
+.trip-info p {
+    padding: 5px 0;
+    font-size: 16px;
+}
+
+.trip-description p {
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.trip-buttons a {
+    background-color: green;
+    padding: 10px 12px;
+    border-radius: 2px;
+}
+
+.trip h3 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.trip iframe {
+    width: 100%;
+}
 
 
 @media (min-width: 768px){
+    .itineraties-landing {
+        height: 50vh;
+    }
     .upcoming {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -131,6 +175,20 @@ hr {
     .thumbnail:hover .thumbnailImg {
         transform: scale(1.1);
         transition: transform 400ms ease-in-out;
+    }
+    .trip h1 {
+        font-size: 45px;
+    }
+    .trip-description p {
+        font-size: 16px;
+    }
+    .trip div {
+        margin-bottom: 50px;
+    }
+    .trip img{
+        width: 50%;
+        float: right;
+        margin: 0 0 30px 30px;
     }
 }
 @media (min-width: 1200px){
