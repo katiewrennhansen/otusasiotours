@@ -1,0 +1,93 @@
+@import "general_nav.css";
+
+
+.contact-landing {
+    background: url('../images/contact/IMG_2043.jpg');
+    background-position: 50% 30%;
+    background-size: cover;
+    background-repeat: none;
+    height: 50vh;
+    border-bottom: 20px solid #E6E6E6;
+}
+
+.contact {
+    width: 85%;
+    margin: 0 auto 100px;
+}
+
+.contact h2{
+    margin-bottom: 30px;
+}
+
+address {
+    margin-top: 50px;
+}
+
+.contact p,
+address {
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    margin-top: 80px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+textarea {
+    font-family: Raleway, sans-serif;
+    font-size: 15px;
+    padding: 8px 12px;
+    border-radius: 2px;
+    border: 1px solid rgb(177, 177, 177);
+    width: 100%;
+}
+
+
+label {
+    display: block;
+    margin: 20px 0 8px;
+}
+
+.newsletter {
+    background: #C6E2A5;
+    padding: 50px 30px;
+    text-align: center;
+}
+
+.newsletter p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+input[type="submit"],
+.newsletter input[type="text"] {
+    font-family: Raleway, sans-serif;
+    font-size: 15px;
+}
+
+.newsletter input[type="text"] {
+    padding: 8px 12px;
+    border-radius: 2px;
+    border: none;
+}
+
+input[type="submit"]{
+    background: #0D1206;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 2px;
+}
+
+
+@media (min-width: 1000px){
+    .contact {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .contact-form {
+        margin: 80px 40px 0;
+    }
+
+}

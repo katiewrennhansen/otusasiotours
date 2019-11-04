@@ -16,10 +16,15 @@
     border-top: 20px solid #E6E6E6;
 }
 
+.itineraries h2 {
+    text-align: center;
+    margin: 100px auto 12px;
+}
 
-
-
-
+hr {
+    width: 90%;
+    margin: 0 auto 30px;
+}
 
 
 
@@ -27,6 +32,26 @@
 
 
 /**** card styles */
+.image-container {
+    position: relative;
+}
+
+.image-container p {
+    font-size: 14px;
+}
+
+.bird-name {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    text-align: right;
+    z-index: 1000;
+    color: white;
+    padding: 40px 30px 20px;
+    width: 100%;
+    background-image: linear-gradient(rgba(13, 18, 6, 0),rgba(13, 18, 6, 0.7), rgba(13, 18, 6, 1));
+}
+
 .thumbnail {
     border: 1px solid #BCBCBC;
     width: 85%;
@@ -45,12 +70,12 @@
 }
 
 .thumbnail h3 {
-    font-size: 30px;
+    font-size: 26px;
     margin-bottom: 15px;
 }
 
 .thumbnail p {
-    font-size: 20px;
+    font-size: 16px;
     margin-bottom: 10px;
 }
 
@@ -64,7 +89,6 @@
     border-radius: 2px;  
 }
 
-
 .group-image {
     background: url('../images/itineraries/group.jpeg');
     background-position: center;
@@ -77,56 +101,57 @@
 
 
 @media (min-width: 768px){
-    .thumbnail {
-        width: 70%;
-        margin: 60px auto;
+    .upcoming {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .image-container {
+        overflow: hidden;
+    }
+    .image-container p {
+        font-size: 16px;        
     }
     .thumbnail-content {
         padding: 15px 25px;
     }
     .thumbnail h3 {
-        font-size: 45px;
-    }
-    .thumbnail p {
         font-size: 30px;
+    }
+    .thumbnail-content p {
+        font-size: 18px;
     }
     .thumbnail a {
         padding: 12px 18px;
-        font-size: 25px;
+        font-size: 18px;
     }
-}
-@media (min-width: 1200px){
-    .itineraries {
-        padding-bottom: 150px;
-    }
-    .itineraries h2 {
-        padding-top: 200px;
-        clear: left;
-    }
-    #current {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
+    .thumbnail .thumbnailImg {
+        transform: scale(1);
+        transition: transform 400ms ease-in-out;
     }
     .thumbnail:hover .thumbnailImg {
         transform: scale(1.1);
         transition: transform 400ms ease-in-out;
     }
-    .image-container {
-        overflow: hidden;
+}
+@media (min-width: 1200px){
+    .upcoming {
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0 80px;
+    }
+    .itineraries {
+        padding-bottom: 150px;
+    }
+    .itineraries h2 {
+        font-size: 60px;
+        padding-top: 50px;
     }
     .thumbnail {
-        width: 30%;
         max-width: 350px;
     }
     .thumbnail h3 {
-        font-size: 38px;
-    }
-    .thumbnail p {
         font-size: 25px;
     }
     .thumbnail a {
         padding: 8px 20px;
-        font-size: 18px;
     }
 }
