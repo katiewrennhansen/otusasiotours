@@ -1,0 +1,11 @@
+@import "general_nav.css";
+
+
+.past-trips-landing {
+    background: url('../images/pastTrips/IMG_3231.jpeg');
+    background-position: 50% 18%;
+    background-size: cover;
+    background-repeat: none;
+    height: 50vh;
+    border-bottom: 20px solid #E6E6E6;
+}
