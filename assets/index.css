@@ -25,7 +25,7 @@
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 48px;
     margin-bottom: 12px;
 }
 
@@ -41,11 +41,12 @@ h1 {
     padding: 8px 15px;
     border-radius: 2px;
     text-shadow: none;
+    transition: 400ms linear;
 }
 
 .learn:hover {
-    background: rgb(167, 193, 140);
-
+    background: rgb(156, 186, 124);
+    transition: 200ms linear;
 }
 
 /* welcome text */
@@ -148,13 +149,19 @@ hr {
 /* newsletter & group image */
 .newsletter {
     background: #C6E2A5;
-    padding: 30px;
+    padding: 50px 30px;
     text-align: center;
 }
 
 .newsletter p {
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 16px;
+}
+
+input[type="submit"],
+input[type="text"] {
+    font-family: Raleway, sans-serif;
+    font-size: 15px;
 }
 
 input[type="text"] {
@@ -238,15 +245,15 @@ input[type="submit"]{
         font-size: 18px;
     }
     .newsletter {
-        padding: 50px;
+        padding: 60px 0;
     }
     .newsletter p {
         margin-bottom: 25px;
-        font-size: 30px;
+        font-size: 20px;
     }
     input[type="text"],
     input[type="submit"] {
-        font-size: 25px;
+        font-size: 18px;
         margin: 0 5px;
     }
     
@@ -306,9 +313,12 @@ input[type="submit"]{
         padding: 8px 20px;
         font-size: 18px;
     }
+    .newsletter {
+        font-size: 20px;
+        padding: 100px 0;
+    }
     input[type="text"],
     input[type="submit"] {
-        font-size: 20px;
         padding: 8px 20px;
         font-weight: 300;
     }

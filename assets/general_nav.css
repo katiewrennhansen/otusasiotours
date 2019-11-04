@@ -32,11 +32,9 @@ a {
     text-decoration: none;
     color: white;
     font-weight: 300;
+    cursor: pointer;
 }
 
-a:hover {
-    color: #C6E2A5;
-}
 
 #brand,
 h1,
@@ -60,7 +58,6 @@ ul {
 /*NAVIGATION */
 /*==============*/
 nav {
-    display: flex;
     position: fixed;
     top: 0;
     background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
@@ -72,6 +69,7 @@ nav {
 
 #logo {
     width: 60px;
+    margin: 10px 20px;
 }
 
 #brand {
@@ -80,8 +78,8 @@ nav {
 
 .nav-button {
     position: absolute;
-    top: 12px;
-    right: 10px;
+    top: 25px;
+    right: 25px;
     background: none;
     border: none;
     cursor: pointer;
@@ -95,12 +93,19 @@ nav {
     border-radius: 4px;
 }
 
-.navbar-collapse{
+.navbar-collapse {
     height: 0;
     background: #C6E2A5;
     font-size: 30px;
     padding: 0 20px 0;
     opacity: 0;
+    transition: 200ms linear;
+}
+
+.toggle-nav {
+    background: #C6E2A5;
+    height: 90px;
+    transition: none;
 }
 
 .burger-bar {
@@ -154,23 +159,32 @@ nav li {
 
 .toggle {
     height: 100vh;
-    opacity: 400ms;
     opacity: 1;
     width: 100vw;
+    transition: 100ms linear 50ms;
 }
+
+
 
 
 
 /*=============
 FOOTER
 ==============*/
-
-
 .footer {
     background:#0D1206;
     color: #F0EDED;
     text-align: center;
     padding: 40px;
+}
+
+.footer a {
+    transition: 200ms linear;
+}
+
+.footer a:hover {
+    color: #C6E2A5;
+    transition: 200ms linear;
 }
 
 #otus {
@@ -190,21 +204,31 @@ FOOTER
     margin: 10px;
 }
 
-.col2 li {
-    margin: 15px 0;
+.col2,
+.col3 {
+    display: none;
 }
 
-.col3 {
-    margin: 50px 0;
-    display: flex;
-    justify-content: space-evenly;
-} 
+.icons {
+    max-width: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 40px auto 0;
+}
 
 i {
     font-size: 30px;
+    transition: 300ms linear;
 }
 
-.copyright, .copyright a {
+i:hover {
+    color: #C6E2A5;
+    transition: 200ms linear;
+    transform: translateY(-5px);
+}
+
+.copyright, 
+.copyright a {
     color: rgba(255, 255, 255, 0.358);
 }
 
@@ -212,37 +236,17 @@ i {
 
 
 @media (min-width: 768px) {
-    #logo {
-        margin: 8px 0 0 20px;
-    }
-    .nav-button {
-        top: 20px;
-        right: 20px;
-    }
     .footer {
         padding: 60px;
     }
     .footer h3 {
         font-size: 50px;
     }
-    .med-display {
-        display: flex;
-        justify-content: space-around;
-    }
     .col {
         margin: 20px 0;
     }
     .col p {
         margin: 15px;
-    }
-    
-    .col2 li {
-        margin: 20px 0;
-        text-align: left;
-    }
-    .col3 {
-        display: flex;
-        flex-direction: column;
     }
     i {
         font-size: 35px;
@@ -260,7 +264,7 @@ i {
     }
     #logo {
         position: absolute;
-        top: 5px;
+        top: 20px;
         left: 30px;
         margin: 0;
     }
@@ -269,8 +273,8 @@ i {
         color: white;
         opacity: 1;
         position: absolute;
-        top: 16px;
-        left: 150px;
+        top: 30px;
+        left: 120px;
         font-size: 30px;
     }
     .navbar-collapse {
@@ -282,7 +286,7 @@ i {
     }
     nav ul {
         display: flex;
-        padding-top: 5px;
+        padding-top: 16px;
     }
     .navbar-nav li {
         margin-left: 30px;
@@ -312,11 +316,14 @@ i {
         padding: 60px 100px;
     }
     .flex-container {
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 30px;
         justify-content: space-between;
+        align-items: flex-end;
+
     }
     .col1 {
-        flex: 1;
         text-align: left;
     }
     .col1 h3 {
@@ -325,8 +332,19 @@ i {
     .col1 p {
         margin-left: 0
     }
-    .med-display {
-        flex: 2;
+    .icons {
+        margin: 40px 0;
+    }
+    .col2,
+    .col3 {
+        display: block;
+    }
+    .col2 li,
+    .col3 li {
+        margin: 20px 0;
+    }
+    .col3 h4 {
+        font-size: 18px;
     }
     .copyright {
         margin-top: 50px;
