@@ -127,8 +127,9 @@ hr {
 
 .trip-buttons a {
     background-color: green;
-    padding: 10px 12px;
+    padding: 8px 10px;
     border-radius: 2px;
+    font-size: 14px;
 }
 
 .trip h3 {
@@ -189,6 +190,10 @@ hr {
         width: 50%;
         float: right;
         margin: 0 0 30px 30px;
+    }
+    .trip-buttons a {
+        padding: 10px 12px;
+        font-size: 16px;
     }
 }
 @media (min-width: 1200px){
