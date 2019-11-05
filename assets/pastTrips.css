@@ -79,10 +79,11 @@ hr {
 
 /* individual trip styles */
 
+
 .images {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
     grid-gap: 5px;
+    justify-content: center;
 }
 
 .images div {
@@ -96,10 +97,33 @@ hr {
     margin: 40px auto 100px;
 }
 
-.past-trip h2 {
-    margin-bottom: 20px;
+.past-trip h1 {
+    font-size: 40px;
 }
 
+.past-trip h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.past-trip a {
+    background: rgb(6, 29, 6);
+    color: white;
+    border-radius: 2px;
+    padding: 10px 12px;
+}
+
+.title-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.title-grid a {
+    align-self: flex-end;
+    justify-self: flex-end;
+    box-shadow: 1px 1px 3px gray;
+}
 
 /* lightbox styles */
 .modal {
@@ -117,19 +141,21 @@ hr {
   
   .modal-content {
     position: relative;
-    margin: auto;
+    margin: 50px auto 0;
     padding: 50px 0 0;
-    width: 50%;
+    width: 100%;
     max-width: 1200px;
   }
+
   
   .close {
     color: white;
     position: absolute;
     top: 130px;
-    right: 130px;
+    right: 30px;
     font-size: 45px;
     font-weight: bold;
+    z-index: 99999;
   }
   
   .close:hover,
@@ -161,7 +187,7 @@ hr {
 .next {
     cursor: pointer;
     position: absolute;
-    top: 350px;
+    top: 180px;
     width: auto;
     padding: 16px;
     margin-top: -50px;
@@ -201,9 +227,17 @@ img.hover-shadow {
 
 
 @media (min-width: 768px){
+    .images {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 5px;
+    }
     .past-trips-content {
         grid-template-columns: repeat(2, 1fr);
         margin: 50px 160px;
+    }
+    .past-trip h2 {
+        text-align: left;
     }
     .card {
         width: 300px;
@@ -212,9 +246,33 @@ img.hover-shadow {
     .past-trips-content a {
         justify-self: center;
     }
+     .modal-content {
+        margin: auto;
+        width: 70%;
+    }
+    .close {
+        top: 180px;
+        right: 100px;
+    } 
+    .prev,
+    .next {
+        top: 300px;  
+    }
 }
 @media (min-width: 1000px){
+    .images {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-gap: 5px;
+    }
     .past-trips-content {
         grid-template-columns: repeat(3, 1fr);
+    }
+    .modal-content {
+        width: 50%;
+    }
+    .prev,
+    .next {
+        top: 350px;  
     }
 }
