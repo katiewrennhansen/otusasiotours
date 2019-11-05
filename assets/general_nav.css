@@ -168,6 +168,22 @@ nav li {
 }
 
 
+.landing {
+    background-size: cover;
+    background-repeat: none;
+    height: 60vh;
+    border-bottom: 20px solid #E6E6E6;
+    position: relative;
+}
+
+.home-caption {
+    position: absolute;
+    color: white;
+    z-index: 999;
+    bottom: 20px;
+    right: 20px;
+}
+
 
 
 

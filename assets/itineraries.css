@@ -4,14 +4,40 @@
 /*==============*/
 
 .itineraties-landing {
-    background: url('../images/itineraries/cover.jpg');
-    background-position: top;
-    background-size: cover;
-    background-repeat: none;
-    height: 40vh;
-    border-bottom: 20px solid #E6E6E6;
-
+    background-image: url('../images/itineraries/cover.jpg');
+    background-position: 0 25%;
 }
+
+
+.texas-landing {
+    background-image: url('../images/itineraries/Red-billed\ Pigeon.jpeg');
+    background-position: 0 18%;
+}
+
+.cambodia-landing {
+ /* stuff in here */
+}
+
+.sanblas-landing {
+    background-image: url('../images/itineraries/Mangrove\ Swallow.jpeg');
+    background-position: 100% 20%;
+}
+
+.oaxaca-landing {
+    background-image: url('../images/itineraries/Orange-chinned\ Parakeet.jpeg');
+    background-position: 100% 40%;
+}
+
+.colombia-landing {
+    background-image: url('../images/itineraries/Ruddy\ Ground-Dove.jpeg');
+    background-position: 100% 15%;
+}
+
+.southafrica-landing {
+    background-image: url('../images/itineraries/African\ Penguin.jpg');
+    background-position: 100% 65%;
+}
+
 
 .itineraries h2 {
     text-align: center;
@@ -22,9 +48,6 @@ hr {
     width: 90%;
     margin: 0 auto 30px;
 }
-
-
-
 
 
 .upcoming {
