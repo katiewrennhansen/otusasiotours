@@ -91,6 +91,7 @@ hr {
 }
 
 .thumbnail {
+    display: block;
     border: 1px solid #BCBCBC;
     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
     padding-bottom: 20px;
@@ -122,27 +123,31 @@ hr {
 
 .thumbnail-content {
     padding: 10px 20px;
-    flex-direction: column;
 }
 
 .thumbnail h3 {
     font-size: 26px;
     margin-bottom: 15px;
+    color: black;
 }
 
-.thumbnail-content p {
+.thumbnail-content {
     font-size: 16px;
     margin-bottom: 10px;
+    color: black;
 }
 
 .thumbnail p:nth-child(3) {
-    margin-bottom: 30px;
+    margin-bottom: 30px
 }
 
-.thumbnail a {
+.tour-button {
     background-color: #0D1206;
+    color: white;
     padding: 8px 15px;
     border-radius: 2px;  
+    width: 150px;
+    text-align: center;
 }
 
 
@@ -292,11 +297,20 @@ input[type="submit"]{
         justify-content: space-around;
         margin: 100px;
     }
-    .thumbnail .thumbnailImg {
+    /* .thumbnail .thumbnailImg {
         transform: scale(1.0);
         transition: 300ms ease-in-out;
     }
     .thumbnail:hover .thumbnailImg {
+        transform: scale(1.1);
+        transition: 300ms ease-in-out;
+    } */
+
+    .thumbnail:hover img {
+        transform: scale(1.0);
+        transition: 300ms ease-in-out;
+    }
+    .thumbnail:hover img {
         transform: scale(1.1);
         transition: 300ms ease-in-out;
     }

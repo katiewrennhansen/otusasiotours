@@ -100,6 +100,7 @@ nav {
     padding: 0 20px 0;
     opacity: 0;
     transition: 200ms linear;
+    display: none;
 }
 
 .toggle-nav {
@@ -162,6 +163,8 @@ nav li {
     opacity: 1;
     width: 100vw;
     transition: 100ms linear 50ms;
+    display: block;
+
 }
 
 
