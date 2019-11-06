@@ -102,6 +102,7 @@ hr {
 }
 
 .past-trip h2 {
+    font-family: Raleway, sans-serif;
     margin-bottom: 20px;
     text-align: center;
     font-size: 30px;
@@ -215,12 +216,12 @@ hr {
     opacity: 1;
   }
   
-img.hover-shadow {
+.images div {
     transition: 0.3s;
   }
   
-.hover-shadow:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.images div:hover {
+    box-shadow: 2px 4px 8px 0 rgb(97, 97, 97);
   }
 
 
@@ -235,6 +236,9 @@ img.hover-shadow {
     .past-trips-content {
         grid-template-columns: repeat(2, 1fr);
         margin: 50px 160px;
+    }
+    .past-trip h1 {
+        font-size: 50px;
     }
     .past-trip h2 {
         text-align: left;
@@ -264,6 +268,13 @@ img.hover-shadow {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
         grid-gap: 5px;
+    }
+    .past-trip h1 {
+        font-size: 60px;
+        margin-bottom: 10px;
+    }
+    .past-trip p {
+        font-size: 26px;
     }
     .past-trips-content {
         grid-template-columns: repeat(3, 1fr);
