@@ -255,7 +255,7 @@ hr {
         width: 70%;
     }
     .close {
-        top: 180px;
+        top: 130px;
         right: 100px;
     } 
     .prev,
@@ -273,7 +273,7 @@ hr {
         font-size: 60px;
         margin-bottom: 10px;
     }
-    .past-trip p {
+    .heading p {
         font-size: 26px;
     }
     .past-trips-content {
