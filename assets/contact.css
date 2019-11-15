@@ -27,6 +27,29 @@ address {
 address {
     margin-bottom: 20px;
 }
+.phone {
+    padding-bottom: 20px;
+}
+
+.e-bird {
+    background: black;
+    padding: 10px 12px;
+    border-radius: 2px;
+}
+
+.contact a,
+.contact input[type="submit"],
+.newsletter input[type="submit"]{
+    transition: 200ms linear;
+}
+
+.contact a:hover,
+.contact input[type="submit"]:hover,
+.newsletter input[type="submit"]:hover {
+    background: rgb(22, 43, 32);
+    cursor: pointer;
+    transition: 200ms linear;
+}
 
 .contact-form {
     margin-top: 80px;
@@ -67,7 +90,7 @@ input[type="submit"],
 }
 
 .newsletter input[type="text"] {
-    padding: 8px 12px;
+    padding: 10px 12px;
     border-radius: 2px;
     border: none;
 }
@@ -76,7 +99,7 @@ input[type="submit"]{
     background: #0D1206;
     border: none;
     color: white;
-    padding: 8px 12px;
+    padding: 10px 12px;
     border-radius: 2px;
 }
 

@@ -1,7 +1,6 @@
 @import "general_nav.css";
 
 
-
 /*========================================================*/
 /*HOME PAGE */
 /*========================================================*/
@@ -14,7 +13,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: none;
-    height: 100vh;
+    height: 110vh;
     text-align: center;
 }
 
@@ -50,9 +49,6 @@ h1 {
 }
 
 /* welcome text */
-.welcome {
-    border-top: 20px solid #E6E6E6;
-}
 
 .welcome h2 {
     margin: 40px auto 20px;
