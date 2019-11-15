@@ -46,7 +46,6 @@ h3 {
 
 h2 {
     font-size: 45px;
-    padding-top: 80px;
 }
 
 ul {
@@ -170,7 +169,7 @@ nav li {
 .landing {
     background-size: cover;
     background-repeat: none;
-    height: 60vh;
+    height: 55vh;
     border-bottom: 20px solid #E6E6E6;
     position: relative;
 }
