@@ -10,7 +10,7 @@
 
 
 .texas-landing {
-    background-image: url('../images/itineraries/Red-billed\ Pigeon.jpeg');
+    background-image: url('../images/itineraries/Red-billed\ Pigeon.jpg');
     background-position: 0 18%;
 }
 
@@ -19,17 +19,17 @@
 }
 
 .sanblas-landing {
-    background-image: url('../images/itineraries/Mangrove\ Swallow.jpeg');
+    background-image: url('../images/itineraries/Mangrove\ Swallow.jpg');
     background-position: 100% 20%;
 }
 
 .oaxaca-landing {
-    background-image: url('../images/itineraries/Orange-chinned\ Parakeet.jpeg');
+    background-image: url('../images/itineraries/Orange-chinned\ Parakeet.jpg');
     background-position: 100% 40%;
 }
 
 .colombia-landing {
-    background-image: url('../images/itineraries/Ruddy\ Ground-Dove.jpeg');
+    background-image: url('../images/itineraries/Ruddy\ Ground-Dove.jpg');
     background-position: 100% 15%;
 }
 
@@ -116,7 +116,7 @@ hr {
 
 
 .group-image {
-    background: url('../images/itineraries/group.jpeg');
+    background: url('../images/itineraries/group.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: none;

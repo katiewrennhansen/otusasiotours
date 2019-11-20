@@ -2,7 +2,7 @@
 
 
 .past-trips-landing {
-    background: url('../images/pastTrips/IMG_3231.jpeg');
+    background: url('../images/pastTrips/IMG_3231.jpg');
     background-position: 50% 18%;
     background-size: cover;
     background-repeat: none;
@@ -39,19 +39,19 @@ hr {
 }
 
 .bc-sur {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url('../images/pastTrips/Spotted\ Towhee.jpeg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url('../images/pastTrips/Spotted\ Towhee.jpg');
 }
 
 .mw {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url('../images/pastTrips/Bohemian\ Waxwing.jpeg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url('../images/pastTrips/Bohemian\ Waxwing.jpg');
 }
 
 .morocco {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url('../images/pastTrips/Crimson-winged\ Finch.jpeg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url('../images/pastTrips/Crimson-winged\ Finch.jpg');
 }
 
 .morocco-landing {
-    background: url('../images/trips/morocco/Camel\ caravan\ near\ Erg\ Chebbi.jpeg');
+    background: url('../images/trips/morocco/Camel\ caravan\ near\ Erg\ Chebbi.jpg');
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: none;
@@ -60,7 +60,7 @@ hr {
 }
 
 .eduador {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url('../images/pastTrips/Bar-bellied\ Woodpecker.jpeg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url('../images/pastTrips/Bar-bellied\ Woodpecker.jpg');
 }
 
 .past-trips h3 {
@@ -228,9 +228,9 @@ hr {
 
 @media (min-width: 768px){
     .images {
-        display: grid;
+        /* display: grid; */
         grid-template-columns: repeat(4, 1fr);
-        grid-gap: 5px;
+        /* grid-gap: 5px; */
     }
     .past-trips-content {
         grid-template-columns: repeat(2, 1fr);
@@ -264,9 +264,9 @@ hr {
 }
 @media (min-width: 1000px){
     .images {
-        display: grid;
+        /* display: grid; */
         grid-template-columns: repeat(6, 1fr);
-        grid-gap: 5px;
+        /* grid-gap: 5px; */
     }
     .past-trip h1 {
         font-size: 60px;

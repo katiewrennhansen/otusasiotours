@@ -7,9 +7,9 @@
 
 /* landing page */
 .landing {
-    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.42)), to(rgba(0, 0, 0, 0.42))), url('../images/indexImages/cover.jpeg');
-    background: -o-linear-gradient(left, rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42)), url('../images/indexImages/cover.jpeg');
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42)), url('../images/indexImages/cover.jpeg');
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.42)), to(rgba(0, 0, 0, 0.42))), url('../images/indexImages/cover.jpg');
+    background: -o-linear-gradient(left, rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42)), url('../images/indexImages/cover.jpg');
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42)), url('../images/indexImages/cover.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: none;
@@ -177,7 +177,7 @@ input[type="submit"]{
 }
 
 .group-image {
-    background: url('../images/indexImages/happyGroup.jpeg');
+    background: url('../images/indexImages/happyGroup.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: none;
