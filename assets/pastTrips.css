@@ -54,18 +54,16 @@ hr {
     background: url('../images/trips/Camel\ caravan\ near\ Erg\ Chebbi.jpg');
     background-position: 50% 50%;
     background-size: cover;
-    background-repeat: none;
-    height: 50vh;
-    border-bottom: 20px solid #E6E6E6;
 }
 
 .mw-landing {
     background: url('../images/trips/mw/Snowy\ Owl-cover.jpg');
     background-position: 50% 30%;
-    background-size: cover;
-    background-repeat: none;
-    height: 50vh;
-    border-bottom: 20px solid #E6E6E6;
+}
+
+.baja-landing {
+    background: url('../images/trips/baja-california/cover.jpg');
+    background-position: 50% 30%;
 }
 
 
@@ -88,7 +86,6 @@ hr {
 
 
 /* individual trip styles */
-
 
 .images {
     display: grid;
