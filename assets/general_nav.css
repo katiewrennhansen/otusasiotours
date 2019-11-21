@@ -45,7 +45,7 @@ h3 {
 }
 
 h2 {
-    font-size: 45px;
+    font-size: 42px;
 }
 
 ul {
@@ -135,7 +135,7 @@ nav {
 }
 
 nav ul {
-    padding: 100px 0 0;
+    padding: 20px 0 0;
     list-style: none;
     text-align: center;
     font-family: 'Manjari', sans-serif;
