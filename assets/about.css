@@ -5,7 +5,7 @@
 /*==============*/
 .about-landing {
     background: url('../images/aboutImages/groupCover.jpg');
-    background-position: center;
+    background-position: 50% 60%;
     background-size: cover;
     background-repeat: none;
 }

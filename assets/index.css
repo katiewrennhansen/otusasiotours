@@ -1,5 +1,21 @@
 @import "general_nav.css";
 
+nav  {
+    animation: 500ms ease-out 0s 1 slideDown;
+
+}
+
+
+@keyframes slideDown {
+    0% {
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
 
 /*========================================================*/
 /*HOME PAGE */
@@ -21,12 +37,26 @@
     padding-top: 42vh;
     color: white;
     text-shadow: 0 3px 4px rgba(0, 0, 0, 0.769);
+    animation: 500ms ease-out 0s 1 slideUp;
 }
 
 h1 {
     font-size: 48px;
     margin-bottom: 12px;
 }
+
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 
 .landing-text {
     font-size: 20px;
@@ -41,11 +71,13 @@ h1 {
     border-radius: 2px;
     text-shadow: none;
     transition: 400ms linear;
+    box-shadow: 1px 1px 2px rgb(69, 69, 69);
 }
 
 .learn:hover {
     background: rgb(156, 186, 124);
     transition: 200ms linear;
+    box-shadow: 1px 1px 3px rgb(50, 50, 50);
 }
 
 /* welcome text */
@@ -88,9 +120,10 @@ hr {
 
 .thumbnail {
     display: block;
-    border: 1px solid #BCBCBC;
+    border: 1px solid rgb(220, 220, 220);
     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
     min-height: 100%;
+    border-radius: 3px;
 }
 
 .image-container {
@@ -135,14 +168,36 @@ hr {
 }
 
 .tour-button {
-    background-color: #0D1206;
     color: white;
     padding: 8px 15px;
     border-radius: 2px;  
     width: 150px;
     text-align: center;
+    background: rgb(154, 93, 55);
+}
+.tour-button:hover {
+    background: rgb(125, 75, 45);
+    transition: 200ms linear;
 }
 
+input[type="submit"]:hover,
+.view-all a:hover {
+    cursor: pointer;
+    background-color: rgb(35, 48, 16);
+    transition: 200ms linear;
+}
+
+.view-all {
+    width: 160px;
+    margin: 0 auto;
+}
+
+.view-all a {
+    background: rgb(154, 93, 55);
+    border-radius: 2px;
+    padding: 10px 16px;
+    font-size: 20px;
+}
 
 /* newsletter & group image */
 .newsletter {
@@ -175,6 +230,7 @@ input[type="submit"]{
     padding: 8px 12px;
     border-radius: 2px;
 }
+
 
 .group-image {
     background: url('../images/indexImages/happyGroup.jpg');

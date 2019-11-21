@@ -59,12 +59,14 @@ ul {
 nav {
     position: fixed;
     top: 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
     width: 100%;
     color: white;
-    height: 160px;
+    height: 120px;
     z-index: 99999;
 }
+
+
 
 #logo {
     width: 60px;
@@ -317,17 +319,22 @@ i:hover {
         font-weight: 300;
     }
     .navbar-nav a:hover {
-        color: #C6E2A5;
+        color: rgb(156, 186, 124);
+        transition: 200ms linear;
     }
     .contact-button a {
         background: #C6E2A5;
         color: black;
         padding: 10px 18px;
         border-radius: 2px;
+        box-shadow: 1px 1px 2px rgb(69, 69, 69);
+
     }
     .contact-button a:hover {
-        background: rgb(167, 193, 140);
         color: black;
+        background: rgb(156, 186, 124);
+        transition: 200ms linear;
+        box-shadow: 1px 1px 3px rgb(50, 50, 50);
     }
     .footer {
         padding: 60px 100px;
@@ -366,3 +373,6 @@ i:hover {
         margin-top: 50px;
     }
 }
+
+
+
