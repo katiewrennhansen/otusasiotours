@@ -62,6 +62,11 @@ hr {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url('../images/trips/utah_navada/Mountain\ Goat.jpg');
 }
 
+.india {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url('../images/trips/india/In\ line\ at\ the\ market.jpg');
+}
+
+
 .morocco-landing {
     background: url('../images/trips/Camel\ caravan\ near\ Erg\ Chebbi.jpg');
     background-position: 50% 50%;
@@ -92,6 +97,12 @@ hr {
 
 .utah-navada-landing {
     background: url('../images/pastTrips/A\ view\ of\ Utah\ Lake\ from\ Soldier\'s\ Pass.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.india-landing {
+    background: url('../images/pastTrips/Demoiselle\ Cranes.jpg');
     background-position: 50% 50%;
     background-size: cover;
 }
