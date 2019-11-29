@@ -50,6 +50,18 @@ hr {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url('../images/pastTrips/Crimson-winged\ Finch.jpg');
 }
 
+.eduador {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url('../images/pastTrips/Bar-bellied\ Woodpecker.jpg');
+}
+
+.colombia {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url('../images/trips/colombia2019/Masked\ Trogon.jpg');
+}
+
+.utah_navada {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url('../images/trips/utah_navada/Mountain\ Goat.jpg');
+}
+
 .morocco-landing {
     background: url('../images/trips/Camel\ caravan\ near\ Erg\ Chebbi.jpg');
     background-position: 50% 50%;
@@ -72,9 +84,19 @@ hr {
     background-size: cover;
 }
 
-.eduador {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url('../images/pastTrips/Bar-bellied\ Woodpecker.jpg');
+.colombia-landing {
+    background: url('../images/pastTrips/Chestnut-crested\ Cotinga.jpg');
+    background-position: 50% 20%;
+    background-size: cover;
 }
+
+.utah-navada-landing {
+    background: url('../images/pastTrips/A\ view\ of\ Utah\ Lake\ from\ Soldier\'s\ Pass.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+
 
 .past-trips h3 {
     font-family: Raleway, sans-serif;
