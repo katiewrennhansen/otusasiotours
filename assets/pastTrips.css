@@ -86,6 +86,10 @@ hr {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url('../images/trips/texas/Mexican\ Jay.jpg');
 }
 
+.santamarta {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url('../images/trips/santamarta/Vermillion\ Cardinal.jpg');
+}
+
 .morocco-landing {
     background: url('../images/trips/Camel\ caravan\ near\ Erg\ Chebbi.jpg');
     background-position: 50% 50%;
@@ -152,7 +156,13 @@ hr {
 
 .texas-hill-landing {
     background: url('../images/pastTrips/Black-bellied\ Whistling-Ducks.jpg');
-    background-position: 50% 20%;
+    background-position: 50% 70%;
+    background-size: cover;
+}
+
+.santamarta-landing {
+    background: url('../images/pastTrips/IMG_5361.jpg');
+    background-position: 50% 40%;
     background-size: cover;
 }
 
