@@ -79,7 +79,11 @@ hr {
 }
 
 .so-cal {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url('../images/trips/colorado/');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url('../images/trips/so-cal/Mountain\ Quail.jpg');
+}
+
+.texas {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url('../images/trips/texas/Mexican\ Jay.jpg');
 }
 
 .morocco-landing {
@@ -143,6 +147,12 @@ hr {
 .so-cal-landing {
     background: url('../images/pastTrips/Birding\ at\ Joshua\ Tree.jpg');
     background-position: 50% 40%;
+    background-size: cover;
+}
+
+.texas-hill-landing {
+    background: url('../images/pastTrips/Black-bellied\ Whistling-Ducks.jpg');
+    background-position: 50% 20%;
     background-size: cover;
 }
 
