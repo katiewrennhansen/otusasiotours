@@ -66,6 +66,9 @@ hr {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url('../images/trips/india/In\ line\ at\ the\ market.jpg');
 }
 
+.alaska {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url('../images/trips/alaska/Spectacled\ Eider\ by\ Jim\ Guyton.jpeg');
+}
 
 .morocco-landing {
     background: url('../images/trips/Camel\ caravan\ near\ Erg\ Chebbi.jpg');
@@ -107,7 +110,11 @@ hr {
     background-size: cover;
 }
 
-
+.alaska-landing {
+    background: url('../images/pastTrips/Westchester\ Lagoon\ in\ Anchorage.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+}
 
 .past-trips h3 {
     font-family: Raleway, sans-serif;
