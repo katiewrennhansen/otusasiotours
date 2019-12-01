@@ -9,27 +9,22 @@ const slides = document.getElementsByClassName('slide');
 const dots = document.getElementsByClassName('demo');
 
 
-toggleBtn.addEventListener('click', function(){
-    toggleBtn.classList.toggle('cross');
-    collapse.classList.toggle('toggle');
-    nav.classList.toggle('toggle-nav')
-});
+function removeNavClasses(){
+  collapse.classList.remove('toggle')
+  toggleBtn.classList.remove('cross')
+  nav.classList.remove('toggle-nav')
+}
 
-navLinks.forEach(link => {
-    link.addEventListener('click', function(){
-        collapse.classList.remove('toggle');
-        toggleBtn.classList.remove('cross');
-    });
-});
+function toggleNavClasses(){
+  toggleBtn.classList.toggle('cross')
+  collapse.classList.toggle('toggle')
+  nav.classList.toggle('toggle-nav')
+}
 
-
-
-//open modal
 function openModal() {
     modal.style.display = 'block';
 }
   
-  // Close the Modal
 function closeModal() {
     modal.style.display = 'none';
 }
@@ -37,12 +32,10 @@ function closeModal() {
 let slideIndex = 1;
 showSlides(slideIndex);
   
-  // Next/previous controls
 function plusSlides(n) {
     showSlides(slideIndex += n);
 }
   
-  // Thumbnail image controls
 function currentSlide(n) {
     showSlides(slideIndex = n);
 }
@@ -60,3 +53,19 @@ function showSlides(n) {
     dots[slideIndex-1].className += ' active';
 }
 
+
+
+//toggle nav
+toggleBtn.addEventListener('click', toggleNavClasses);
+
+//hide nav after link is clicked
+navLinks.forEach(link => {
+    link.addEventListener('click', removeNavClasses);
+});
+
+//hide nav classes after window with passes 1200
+window.onresize = function() {
+  if(window.innerWidth >= 1200){
+    this.removeNavClasses()
+  }
+}

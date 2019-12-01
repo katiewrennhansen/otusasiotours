@@ -44,6 +44,22 @@
 .information a {
     color:black;
     font-style: italic;
+    font-weight: bold;
+}
+
+.topic a {
+    background: #0D1206;
+    color: white;  
+    font-style: normal;
+    padding: 8px 15px;
+    border-radius: 2px; 
+    transition: 200ms linear;
+    font-weight: normal;
+}
+
+.topic a:hover {
+    background: rgb(35, 48, 16);
+    transition: 200ms linear;
 }
 
 
@@ -68,11 +84,13 @@
         padding: 12px 20px;
         border-radius: 5px;
         width: 90%;
+        transition: 100ms linear;
     }
     .aside-nav a {
         font-weight: 600;
     }
     .aside-nav li:hover {
         background: #C6E2A5;
+        transition: 100ms linear;
     }
 }

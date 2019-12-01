@@ -203,6 +203,10 @@ hr {
     cursor: pointer;
 }
 
+.images div img {
+    height: 100%;
+}
+
 .past-trip {
     width: 80%;
     margin: 40px auto 100px;

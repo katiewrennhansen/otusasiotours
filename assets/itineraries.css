@@ -15,7 +15,8 @@
 }
 
 .cambodia-landing {
- /* stuff in here */
+    background-image: url('../images/itineraries/CambodiaSunset.png');
+    background-position: 0 70%;
 }
 
 .sanblas-landing {
@@ -129,7 +130,7 @@ hr {
     height: 60vh;
 }
 
-/* indevidual trip styles  */
+/* individual trip styles  */
 .trip {
     width: 80%;
     margin: 0 auto 100px;
@@ -139,12 +140,9 @@ hr {
     width: 100%;
 }
 
-.trip-image {
-    position: relative;
-}
-
-.trip-image .bird-name {
-    bottom: 0;
+.trip-image p {
+    text-align: right;
+    font-style: italic;
 }
 
 .trip div {
@@ -178,6 +176,16 @@ hr {
     margin-bottom: 20px;
 }
 
+.trip-description ul {
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.trip-description li {
+    line-height: 1.5;
+    margin: 8px 0;
+}
+
 .trip iframe {
     width: 100%;
 }
@@ -196,6 +204,9 @@ hr {
     }
     .image-container p {
         font-size: 16px;        
+    }
+    .trip-description ul {
+        font-size: 16px;
     }
     .thumbnail-content {
         padding: 15px 25px;
@@ -225,9 +236,9 @@ hr {
         font-size: 16px;
     }
     .trip div {
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
-    .trip img{
+    .trip-image {
         width: 50%;
         float: right;
         margin: 0 0 30px 30px;

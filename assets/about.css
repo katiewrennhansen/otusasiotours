@@ -50,6 +50,7 @@
     .images-column {
         display: flex;
         width: 100%;
+        margin-right: 20px;
     }
     .about-content {
         margin-bottom: 0;
