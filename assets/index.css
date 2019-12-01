@@ -167,16 +167,21 @@ hr {
     color: black;
 }
 
+.move-down {
+    padding-top: 10px;
+    align-self: center;
+}
+
 .tour-button {
     color: white;
     padding: 8px 15px;
     border-radius: 2px;  
     width: 150px;
     text-align: center;
-    background: rgb(154, 93, 55);
+    background: #0D1206;
 }
 .tour-button:hover {
-    background: rgb(125, 75, 45);
+    background: rgb(35, 48, 16);
     transition: 200ms linear;
 }
 
@@ -185,18 +190,6 @@ input[type="submit"]:hover,
     cursor: pointer;
     background-color: rgb(35, 48, 16);
     transition: 200ms linear;
-}
-
-.view-all {
-    width: 160px;
-    margin: 0 auto;
-}
-
-.view-all a {
-    background: rgb(154, 93, 55);
-    border-radius: 2px;
-    padding: 10px 16px;
-    font-size: 20px;
 }
 
 /* newsletter & group image */
@@ -332,13 +325,13 @@ input[type="submit"]{
     .welcome img{
         float: left;
         width: 50%;
-        margin-right: 50px;
+        margin: 0 50px 60px 0;
     }
     .itineraries {
         padding-bottom: 150px;
     }
     .itineraries h2 {
-        padding-top: 200px;
+        padding-top: 100px;
         clear: left;
     }
     .upcoming {

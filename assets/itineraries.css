@@ -114,6 +114,12 @@ hr {
     text-align: center;
 }
 
+.tour-button:hover,
+.trip-buttons a:hover {
+    background: rgb(35, 48, 16);
+    transition: 200ms linear;
+}
+
 
 .group-image {
     background: url('../images/itineraries/group.jpg');
@@ -161,7 +167,7 @@ hr {
 }
 
 .trip-buttons a {
-    background-color: green;
+    background-color: #0D1206;
     padding: 8px 10px;
     border-radius: 2px;
     font-size: 14px;
