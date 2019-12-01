@@ -90,6 +90,10 @@ hr {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url('../images/trips/santamarta/Vermillion\ Cardinal.jpg');
 }
 
+.sanblas {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url('../images/trips/sanblas/Lesser\ Ground-Cuckoo.jpg');
+}
+
 .morocco-landing {
     background: url('../images/trips/Camel\ caravan\ near\ Erg\ Chebbi.jpg');
     background-position: 50% 50%;
@@ -163,6 +167,12 @@ hr {
 .santamarta-landing {
     background: url('../images/pastTrips/IMG_5361.jpg');
     background-position: 50% 40%;
+    background-size: cover;
+}
+
+.sanblas-landing {
+    background: url('../images/pastTrips/Red\ Warbler.jpg');
+    background-position: 50% 60%;
     background-size: cover;
 }
 
