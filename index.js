@@ -9,11 +9,31 @@ const slides = document.getElementsByClassName('slide');
 const dots = document.getElementsByClassName('demo');
 
 
+//toggle nav
+toggleBtn.addEventListener('click', toggleNavClasses);
+
+//toggle nav
+toggleBtn.addEventListener('click', toggleNavClasses);
+
+//hide nav after link is clicked
+navLinks.forEach(link => {
+    link.addEventListener('click', removeNavClasses);
+});
+
+//hide nav classes after window with passes 1200
+window.onresize = function() {
+  if(window.innerWidth >= 1200){
+    removeNavClasses()
+  }
+}
+
+
 function removeNavClasses(){
   collapse.classList.remove('toggle')
   toggleBtn.classList.remove('cross')
   nav.classList.remove('toggle-nav')
 }
+
 
 function toggleNavClasses(){
   toggleBtn.classList.toggle('cross')
@@ -55,17 +75,4 @@ function showSlides(n) {
 
 
 
-//toggle nav
-toggleBtn.addEventListener('click', toggleNavClasses);
 
-//hide nav after link is clicked
-navLinks.forEach(link => {
-    link.addEventListener('click', removeNavClasses);
-});
-
-//hide nav classes after window with passes 1200
-window.onresize = function() {
-  if(window.innerWidth >= 1200){
-    this.removeNavClasses()
-  }
-}
