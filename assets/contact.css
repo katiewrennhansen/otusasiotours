@@ -112,5 +112,7 @@ input[type="submit"]{
     .contact-form {
         margin: 80px 40px 0;
     }
-
+    .contact-content {
+        margin-right: 50px;
+    }
 }
