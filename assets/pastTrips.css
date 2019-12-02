@@ -205,6 +205,7 @@ hr {
 
 .images div img {
     height: 100%;
+    width: 100%;
 }
 
 .past-trip {
@@ -230,15 +231,21 @@ hr {
     padding: 10px 12px;
 }
 
+
+.title-grid .heading,
 .title-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 30px;
 }
+
+
 
 .title-grid a {
     align-self: flex-end;
     justify-self: flex-end;
     box-shadow: 1px 1px 3px gray;
+    display: block;
+    max-width: 162px;
+    margin: 5px;
 }
 
 /* lightbox styles */
@@ -344,9 +351,7 @@ hr {
 
 @media (min-width: 768px){
     .images {
-        /* display: grid; */
         grid-template-columns: repeat(4, 1fr);
-        /* grid-gap: 5px; */
     }
     .past-trips-content {
         grid-template-columns: repeat(2, 1fr);
@@ -380,9 +385,7 @@ hr {
 }
 @media (min-width: 1000px){
     .images {
-        /* display: grid; */
         grid-template-columns: repeat(6, 1fr);
-        /* grid-gap: 5px; */
     }
     .past-trip h1 {
         font-size: 60px;
@@ -393,6 +396,12 @@ hr {
     }
     .past-trips-content {
         grid-template-columns: repeat(3, 1fr);
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .image-gallery {
+        max-width: 1200px;
+        margin: 0 auto;
     }
     .modal-content {
         width: 50%;
@@ -400,5 +409,13 @@ hr {
     .prev,
     .next {
         top: 350px;  
+    }
+    .title-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .links {
+        align-self: flex-end;
+        justify-self: flex-end;
     }
 }
