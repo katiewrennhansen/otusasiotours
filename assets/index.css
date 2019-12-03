@@ -2,9 +2,7 @@
 
 nav  {
     animation: 500ms ease-out 0s 1 slideDown;
-
 }
-
 
 @keyframes slideDown {
     0% {
