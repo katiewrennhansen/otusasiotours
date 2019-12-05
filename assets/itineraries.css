@@ -39,6 +39,10 @@
     background-position: 100% 65%;
 }
 
+.inirida-landing {
+    background-image: url('../images/itineraries/Enjoying\ Inirida\ -\ Inirida.jpg');
+    background-position: 100% 40%;
+}
 
 .itineraries h2 {
     text-align: center;
@@ -86,7 +90,8 @@ hr {
 }
 
 .thumbnail img {
-    width: 100%;    
+    width: 100%;  
+    min-height: 100%;  
 }
 
 .thumbnail-content {
