@@ -65,7 +65,7 @@
         <h2>Photo Gallery </h2>
         <div class="images">
             <div>
-                <img src="../../images/trips/santamarta/thumbnails/Bicolored Wren.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow" alt=Bicolored Wren">
+                <img src="../../images/trips/santamarta/thumbnails/Bicolored Wren.jpg"  onclick="openModal();currentSlide(1)" class="hover-shadow" alt="Bicolored Wren">
             </div>
             <div>
                 <img src="../../images/trips/santamarta/thumbnails/Black-and-white Owl.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow" alt="Black-and-white Owl">
@@ -124,8 +124,8 @@
         </div>
     </div>
 
-        <div id="modal" class="modal">
-            <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div id="modal" class="modal" aria-modal="true">
+            <span class="close cursor" onkeypress="closeModal()" onclick="closeModal()">&times;</span>
 
             <div class="modal-content">
 
