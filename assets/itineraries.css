@@ -44,6 +44,11 @@
     background-position: 100% 40%;
 }
 
+.mitu-landing {
+    background-image: url('../images/itineraries/Landscapes\ Mitu\ \(4\).jpg');
+    background-position: 100% 50%;
+}
+
 .itineraries h2 {
     text-align: center;
     margin: 100px auto 12px;
