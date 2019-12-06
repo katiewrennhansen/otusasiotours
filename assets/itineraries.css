@@ -102,7 +102,7 @@ hr {
 .thumbnail-content {
     padding: 10px 20px;
     display: grid;
-    grid-template-rows: 100px 65px 40px;
+    grid-template-rows: 110px 65px 40px;
 }
 
 .thumbnail h3 {
@@ -310,5 +310,7 @@ hr {
     .southafrica-landing {
         background-position: 100% 65%;
     }
-
+    .thumbnail-content {
+        grid-template-rows: 90px 65px 40px;
+    }
 }
