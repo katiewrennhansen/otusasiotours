@@ -102,7 +102,7 @@ hr {
 .thumbnail-content {
     padding: 10px 20px;
     display: grid;
-    grid-template-rows: 110px 65px 40px;
+    grid-template-rows: 110px 65px 65px;
 }
 
 .thumbnail h3 {
@@ -123,6 +123,12 @@ hr {
     border-radius: 2px;  
     width: 150px;
     text-align: center;
+    align-self: flex-start;
+}
+
+.status {
+    margin: 10px 0 0;
+    font-style: italic;
 }
 
 .tour-button:hover,
@@ -138,6 +144,9 @@ hr {
     background-repeat: none;
     height: 60vh;
 }
+
+
+
 
 /* individual trip styles  */
 .trip {
@@ -215,6 +224,21 @@ hr {
 }
 
 
+@media (min-width: 500px){
+    .thumbnail-content {
+        grid-template-rows: 80px 65px 40px;
+    }
+    .bottom-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .status {
+        margin: 0;
+        justify-self: flex-end;
+        align-self: center;
+        padding-right: 10px;
+    }
+}
 @media (min-width: 768px){
     .itineraties-landing {
         height: 55vh;
@@ -233,6 +257,7 @@ hr {
         font-size: 16px;
     }
     .thumbnail-content {
+        grid-template-rows: 110px 65px 40px;
         padding: 15px 25px;
     }
     .thumbnail h3 {
@@ -288,6 +313,7 @@ hr {
         margin: 0;
         align-self: flex-end;
     }
+   
 }
 @media (min-width: 1200px){
     .upcoming {
@@ -312,5 +338,9 @@ hr {
     }
     .thumbnail-content {
         grid-template-rows: 90px 65px 40px;
+    }
+    .status {
+        padding: 0 0 0 10px;
+        justify-content: flex-end;
     }
 }
