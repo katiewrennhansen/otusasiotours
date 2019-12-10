@@ -301,7 +301,10 @@ input[type="submit"]{
         font-size: 18px;
         margin: 0 5px;
     }
-    
+    .move-down {
+        padding-top: 0px;
+        align-self: flex-start;
+    }
 }
 @media (min-width: 1200px) {
     h1 {
