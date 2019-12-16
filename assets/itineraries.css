@@ -312,8 +312,7 @@ hr {
         grid-column: 2 / -1;
         margin: 0;
         align-self: flex-end;
-    }
-   
+    } 
 }
 @media (min-width: 1200px){
     .upcoming {

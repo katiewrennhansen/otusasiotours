@@ -151,11 +151,11 @@ hr {
 .thumbnail-content {
     padding: 10px 20px;
     display: grid;
-    grid-template-rows: repeat(2, 75px) 40px;
+    grid-template-rows: 70px 65px 65px;
 }
 
 .thumbnail h3 {
-    font-size: 26px;
+    font-size: 1.32rem;
     color: black;
 }
 
@@ -163,6 +163,11 @@ hr {
     font-size: 16px;
     margin-bottom: 10px;
     color: black;
+}
+
+.status {
+    margin-top: 10px;
+    font-style: italic;
 }
 
 .move-down {
@@ -189,6 +194,7 @@ input[type="submit"]:hover,
     background-color: rgb(35, 48, 16);
     transition: 200ms linear;
 }
+
 
 /* newsletter & group image */
 .newsletter {
@@ -222,7 +228,6 @@ input[type="submit"]{
     border-radius: 2px;
 }
 
-
 .group-image {
     background: url('../images/indexImages/happyGroup.jpg');
     background-position: center;
@@ -232,7 +237,21 @@ input[type="submit"]{
 }
 
 
-
+@media (min-width: 500px){
+    .thumbnail-content {
+        grid-template-rows: 80px 65px 40px;
+    }
+    .bottom-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .status {
+        margin: 0;
+        justify-self: flex-end;
+        align-self: center;
+        padding-right: 10px;
+    }
+}
 @media (min-width: 768px) {
     h1 {
         font-size: 90px;
