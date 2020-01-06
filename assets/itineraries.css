@@ -49,6 +49,11 @@
     background-position: 100% 50%;
 }
 
+.panama-landing {
+    background-image: url('../images/itineraries/Spectacled\ Parrotlet.jpg');
+    background-position: 100% 20%;
+}
+
 .itineraries h2 {
     text-align: center;
     margin: 100px auto 12px;
@@ -126,10 +131,13 @@ hr {
     align-self: flex-start;
 }
 
-.status {
-    margin: 10px 0 0;
+p.status {
+    font-size: 16px;
+    text-align: right;
+    align-self: flex-end;
     font-style: italic;
 }
+
 
 .tour-button:hover,
 .trip-buttons a:hover {
@@ -277,6 +285,9 @@ hr {
     .thumbnail:hover img {
         transform: scale(1.1);
         transition: 300ms ease-in-out;
+    }
+    p.status {
+        font-size: 16px;
     }
     .trip h1 {
         font-size: 45px;

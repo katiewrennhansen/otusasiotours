@@ -165,8 +165,10 @@ hr {
     color: black;
 }
 
-.status {
-    margin-top: 10px;
+p.status {
+    font-size: 16px;
+    text-align: right;
+    align-self: flex-end;
     font-style: italic;
 }
 
@@ -380,6 +382,9 @@ input[type="submit"]{
         padding: 8px 20px;
         font-size: 18px;
     }
+    p.status {
+        font-size: 16px;
+    }
     .newsletter {
         font-size: 20px;
         padding: 100px 0;
@@ -389,7 +394,6 @@ input[type="submit"]{
         padding: 8px 20px;
         font-weight: 300;
     }
-   
 }
 
 
