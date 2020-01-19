@@ -54,6 +54,11 @@
     background-position: 100% 20%;
 }
 
+.ecuador-landing {
+    background-image: url('../images/itineraries/Torrent\ Duck.jpg');
+    background-position: 100% 30%;
+}
+
 .itineraries h2 {
     text-align: center;
     margin: 100px auto 12px;
