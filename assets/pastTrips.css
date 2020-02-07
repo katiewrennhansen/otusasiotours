@@ -98,6 +98,11 @@ hr {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url('../images/trips/oaxaca/White-bellied\ Chachalaca.jpg');
 }
 
+.cambodia {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url('../images/trips/cambodia/monkey.jpg');
+}
+
+
 .morocco-landing {
     background: url('../images/trips/Camel\ caravan\ near\ Erg\ Chebbi.jpg');
     background-position: 50% 50%;
@@ -183,6 +188,12 @@ hr {
 .oaxaca-chiapas-landing {
     background: url('../images/pastTrips/Nava\'s\ Wren.jpg');
     background-position: 50% 50%;
+    background-size: cover;
+}
+
+.cambodia-landing {
+    background: url('../images/pastTrips/cambodia_cover.jpg');
+    background-position: 50% 35%;
     background-size: cover;
 }
 
