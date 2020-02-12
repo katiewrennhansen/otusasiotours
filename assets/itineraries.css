@@ -58,10 +58,10 @@
     background-position: 100% 30%;
 }
 
-/* .uganda-landing {
-    background-image: url('../images/itineraries');
-    background-position: 100% 30%;
-} */
+.uganda-landing {
+    background-image: url('../images/itineraries/Shoebill.jpg');
+    background-position: 100% 65%;
+}
 
 .itineraries h2 {
     text-align: center;
