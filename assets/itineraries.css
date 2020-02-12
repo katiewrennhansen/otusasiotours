@@ -8,7 +8,6 @@
     background-position: 0 12%;
 }
 
-
 .texas-landing {
     background-image: url('../images/itineraries/Red-billed\ Pigeon.jpg');
     background-position: 0 18%;
@@ -58,6 +57,11 @@
     background-image: url('../images/itineraries/Torrent\ Duck.jpg');
     background-position: 100% 30%;
 }
+
+/* .uganda-landing {
+    background-image: url('../images/itineraries');
+    background-position: 100% 30%;
+} */
 
 .itineraries h2 {
     text-align: center;
