@@ -102,6 +102,10 @@ hr {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url('../images/trips/cambodia/monkey.jpg');
 }
 
+.texasriogrande {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url('../images/trips/texas-rio-grande/Barn\ Owl.jpg');
+}
+
 
 .morocco-landing {
     background: url('../images/trips/Camel\ caravan\ near\ Erg\ Chebbi.jpg');
@@ -193,6 +197,12 @@ hr {
 
 .cambodia-landing {
     background: url('../images/pastTrips/cambodia_cover.jpg');
+    background-position: 50% 35%;
+    background-size: cover;
+}
+
+.texasriogrande-landing {
+    background: url('../images/pastTrips/Burrowing\ Owl.jpg');
     background-position: 50% 35%;
     background-size: cover;
 }
