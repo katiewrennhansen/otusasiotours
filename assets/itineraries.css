@@ -68,6 +68,16 @@
     background-position: 100% 38%;
 }
 
+.capemay-landing {
+    background-image: url('../images/itineraries/Northern\ Waterthrush.jpg');
+    background-position: 100% 30%;
+}
+
+.southeast-landing {
+    background-image: url('../images/itineraries/American\ Wigeon.jpg');
+    background-position: 100% 24%;
+}
+
 .itineraries h2 {
     text-align: center;
     margin: 100px auto 12px;

@@ -78,6 +78,39 @@ h1 {
     box-shadow: 1px 1px 3px rgb(50, 50, 50);
 }
 
+/* covid-19 update */
+.covid-19-update {
+    background-color: rgba(255, 0, 0, 0.158);
+    padding: 60px 100px;
+}
+
+.covid-19-update h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.covid-19-update p {
+    margin: 18px 0;
+    line-height: 1.4;
+}
+
+.covid-19-update .signature {
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+@media (max-width: 767px){
+    .covid-19-update {
+        padding: 40px;
+    }
+}
+@media (max-width: 500px){
+    .covid-19-update {
+        padding: 20px;
+    }
+}
+
 /* welcome text */
 
 .welcome h2 {
