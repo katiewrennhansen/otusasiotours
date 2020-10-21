@@ -106,6 +106,10 @@ hr {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url('../images/trips/texas-rio-grande/Barn\ Owl.jpg');
 }
 
+.capemay {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url('../images/trips/cape-may/Clapper Rail.jpg');
+}
+
 
 .morocco-landing {
     background: url('../images/trips/Camel\ caravan\ near\ Erg\ Chebbi.jpg');
@@ -204,6 +208,12 @@ hr {
 .texasriogrande-landing {
     background: url('../images/pastTrips/Burrowing\ Owl.jpg');
     background-position: 50% 35%;
+    background-size: cover;
+}
+
+.capemay-landing {
+    background: url('../images/pastTrips/Shorebirds at Stone Point.jpg');
+    background-position: 50% 50%;
     background-size: cover;
 }
 
