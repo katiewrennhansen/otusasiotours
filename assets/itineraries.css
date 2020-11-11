@@ -78,6 +78,11 @@
     background-position: 100% 24%;
 }
 
+.midwest-landing {
+    background-image: url('../images/itineraries/Chestnut-sided\ Warbler.jpg');
+    background-position: 100% 8%;
+}
+
 .itineraries h2 {
     text-align: center;
     margin: 100px auto 12px;

@@ -4,6 +4,10 @@ const upcomingTrips = [
         path: "http://otusasiotours.com/pages/trips/southeast.html"
     }, 
     {
+        name: "American Midwest",
+        path: "http://otusasiotours.com/pages/trips/midwest.html"
+    }, 
+    {
         name: "Central Panama & the Darién",
         path: "http://otusasiotours.com/pages/trips/panama.html"
     },
@@ -15,13 +19,8 @@ const upcomingTrips = [
         name: "Uganda",
         path: "http://otusasiotours.com/pages/trips/uganda.html"
     },
-
     {
         name: "South Africa (Sept)",
         path: "http://otusasiotours.com/pages/trips/southAfrica.html"
     }, 
-    {
-        name: "South Africa (Oct)",
-        path: "http://otusasiotours.com/pages/trips/southAfrica2.html"
-    }
 ]
