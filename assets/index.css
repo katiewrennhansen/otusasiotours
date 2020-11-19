@@ -196,6 +196,7 @@ hr {
     font-size: 16px;
     margin-bottom: 10px;
     color: black;
+    align-items: center;
 }
 
 p.status {
@@ -217,6 +218,8 @@ p.status {
     width: 150px;
     text-align: center;
     background: #0D1206;
+    line-height: 22px;
+    font-size: 16px;
 }
 .tour-button:hover {
     background: rgb(35, 48, 16);
@@ -334,7 +337,7 @@ input[type="submit"]{
         padding: 15px 25px;
     }
     .thumbnail h3 {
-        font-size: 30px;
+        font-size: 26px;
     }
     .thumbnail-content p {
         font-size: 18px;
@@ -348,7 +351,7 @@ input[type="submit"]{
     }
     .newsletter p {
         margin-bottom: 25px;
-        font-size: 20px;
+        font-size: 16px;
     }
     input[type="text"],
     input[type="submit"] {
@@ -406,10 +409,12 @@ input[type="submit"]{
         overflow: hidden;
     }
     .thumbnail h3 {
-        font-size: 25px;
+        font-size: 22px;
+        align-self: flex-start;
     }
     .thumbnail-content p {
-        font-size: 20px;
+        font-size: 16px;
+        align-self: center;
     }
     .thumbnail a {
         padding: 8px 20px;

@@ -182,7 +182,21 @@ nav li {
     right: 20px;
 }
 
+.thumbnail {
+    position: relative;
+}
 
+.tour-badge {
+    position: absolute;
+    z-index: 1;
+    background: #C6E2A5;
+    color: #000;
+    top: 10px;
+    left: 10px;
+    padding: 10px 18px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px rgb(69, 69, 69);
+}
 
 
 /*=============
