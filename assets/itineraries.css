@@ -59,8 +59,8 @@
 }
 
 .uganda-landing {
-    background-image: url('../images/itineraries/Shoebill.jpg');
-    background-position: 100% 65%;
+    background-image: url('../images/itineraries/Brown-hooded\ Kingfisher.jpg');
+    background-position: 100% 30%;
 }
 
 .kenya-tanzania-landing {
@@ -136,6 +136,8 @@ hr {
 .thumbnail img {
     width: 100%;  
     min-height: 100%;  
+    height: 300px;
+    object-fit: cover;
 }
 
 .thumbnail-content {
